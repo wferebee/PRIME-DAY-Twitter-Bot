@@ -1,0 +1,19 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "is-prime": "^1.0.1",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
