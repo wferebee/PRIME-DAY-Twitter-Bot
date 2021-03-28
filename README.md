@@ -1,6 +1,6 @@
 # PRIME DAY Twitter Bot
 
- will tweet out daily whether or not the date of the day is a prime number
+ Will tweet out daily whether or not the date of the day is a prime number
 
 
 # https://twitter.com/Mr_Prime_Dates
@@ -16,9 +16,8 @@
 * Twitter npm package
 * Axios
 * Heroku
-* Heroku Scheduler (no longer in use because it was not delivering reliably)
-* Cron To Go Scheduler - for more reliable scheduling
+* Heroku Scheduler (for scheduling the tweets)
 * Papertrail - for app loggin on Heroku
 * env file - to hide sensitive material
-* Procfile - so heroku could allow me to use a dyno in the correct way
+* Procfile - so heroku could allow me to use a dyno in the correct way ( no longer in use as I get rid of the worker, I realized I did not need it because I could just use the Heroku Scheduler and the worker kept trying to tweet at random intervals causing me to use up my monthly dyno time)
 
