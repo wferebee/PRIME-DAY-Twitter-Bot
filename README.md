@@ -16,7 +16,9 @@
 * Twitter npm package
 * Axios
 * Heroku
-* Heroku Scheduler
+* Heroku Scheduler (no longer in use because it was not delivering reliably)
+* Cron To Go Scheduler - for more reliable scheduling
+* Papertrail - for app loggin on Heroku
 * env file - to hide sensitive material
 * Procfile - so heroku could allow me to use a dyno in the correct way
 
