@@ -17,7 +17,7 @@
 * Axios
 * Heroku
 * Heroku Scheduler (for scheduling the tweets)
-* Papertrail - for app loggin on Heroku
+* Papertrail - for app logging on Heroku
 * env file - to hide sensitive material
 * Procfile - so heroku could allow me to use a dyno in the correct way ( no longer in use as I get rid of the worker, I realized I did not need it because I could just use the Heroku Scheduler and the worker kept trying to tweet at random intervals causing me to use up my monthly dyno time)
 
